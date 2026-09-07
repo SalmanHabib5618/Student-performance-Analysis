@@ -1,0 +1,19 @@
+{
+  "linear_regression": {
+    "r2": 0.11137615277639956,
+    "mae": 7.776818965976412,
+    "coefficients": {
+      "test_prep_enc": 6.985058889332148,
+      "gender_enc": 0.35769266666213473,
+      "lunch_enc": 4.869528843862682,
+      "parental_education_encoded": 0.8144410969331616
+    },
+    "test_prep_score_lift_math": 6.985058889332148
+  },
+  "decision_tree": {
+    "accuracy": 0.82,
+    "max_depth": 4,
+    "target": "pass = (reading+writing avg >= 70)",
+    "classification_report": "              precision    recall  f1-score   support\n\n        Fail       0.73      0.79      0.76        72\n        Pass       0.88      0.84      0.86       128\n\n    accuracy                           0.82       200\n   macro avg       0.80      0.81      0.81       200\nweighted avg       0.82      0.82      0.82       200\n"
+  }
+}
