@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Performance Analysis
 
 ## Problem Statement
@@ -86,3 +87,6 @@ Student_Performance_Analysis/
 pip install -r requirements.txt
 jupyter notebook notebooks/Student_Performance_Analysis.ipynb
 ```
+=======
+# Student-performance-Analysis
+>>>>>>> 5ee924ee378f9b5b4a1c2555dc0907a5d0fb81d3
